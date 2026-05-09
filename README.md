@@ -87,6 +87,6 @@ Displays:
 Install required libraries:
 
 ```bash
-pip install mysql-connector-python rich readchar
+pip install mysql-connector-python rich readchar'''
 
 
