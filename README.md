@@ -89,4 +89,21 @@ Install required libraries:
 ```bash
 pip install mysql-connector-python rich readchar'''
 
+# Database Setup
 
+Create a MySQL database named:
+
+```sql
+CREATE DATABASE editvault;
+```
+
+Update your MySQL credentials inside `main.py`:
+
+```python
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="YOUR_PASSWORD",
+    database="editvault"
+)
+```
